@@ -29,7 +29,7 @@ def generate_speech(text, language):
     return file_name
 
 with gr.Blocks(theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# 🎙️ Multilingual Expressive TTS")
+    gr.Markdown("# Multilingual TTS")
     gr.Markdown("Convert text into natural speech")
 
     text_input = gr.Textbox(
